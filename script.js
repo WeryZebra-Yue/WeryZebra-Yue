@@ -7,12 +7,9 @@ app.get("/", (req, res) => {
     .then((response) => response.json())
     .then((data) => {
       const currentStreak = data.currentStreak.length;
-
-      res.type("text/html");
-      res.send(`
-      <svg>
-        <text x="0" y="15" fill="black"  font-weight="bold">${currentStreak} / 169</text>
-      </svg>
-        `);
+      res.type("svg");
+      res.send(
+        `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="30" fill="black" font-weight="bold">${currentStreak} / 169</text></svg>`
+      );
     });
 });
