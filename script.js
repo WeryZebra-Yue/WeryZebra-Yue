@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
       const currentStreak = data.currentStreak.length;
       res.type("svg");
       res.send(
-        `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="30" fill="black" font-weight="bold">${currentStreak} / 169</text></svg>`
+        `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="30" fill="white" font-weight="bold" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'" >${currentStreak} / 169</text></svg>`
       );
     });
 });
