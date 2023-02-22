@@ -10,6 +10,9 @@ app.get("/", (req, res) => {
 
       res.type("text/html");
       res.send(`
-        <h5> ${currentStreak} / 169 </h5>`);
+      <svg>
+        <text x="0" y="15" fill="black"  font-weight="bold">${currentStreak} / 169</text>
+      </svg>
+        `);
     });
 });
