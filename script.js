@@ -7,6 +7,9 @@ app.get("/", (req, res) => {
     .then((response) => response.json())
     .then((data) => {
       const currentStreak = data.currentStreak.length;
-      res.send(currentStreak + " / " + 169);
+
+      res.type("text/html");
+      res.send(`
+        <h5> ${currentStreak} / 169 </h5>`);
     });
 });
