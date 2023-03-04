@@ -7,8 +7,6 @@
 
 ![GitHub Streak](https://wery-zebra-yue.vercel.app/)
 
-
-#### WakaTime
 ![Waka Time](https://github-readme-stats.vercel.app/api/wakatime?username=WeryZebra)
 
 
