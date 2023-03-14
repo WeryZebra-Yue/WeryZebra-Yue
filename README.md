@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=weryzebra-yue&theme=dark)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=weryzebra-yue)
 
 <br/>
 
