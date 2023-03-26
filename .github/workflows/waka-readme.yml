@@ -1,4 +1,4 @@
-name: Waka Readme
+name: Redme Waka
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - uses: weryzebra-yue/eryzebra-yue@main
+      - uses: weryzebra-yue/weryzebra-yue@main
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
