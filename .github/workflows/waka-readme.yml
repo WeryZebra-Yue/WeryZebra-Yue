@@ -11,7 +11,7 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - uses: atul/waka-redme@master
+      - uses: weryzebra-yue/eryzebra-yue@main
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
