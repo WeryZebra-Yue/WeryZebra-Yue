@@ -11,4 +11,15 @@
 
 ### 📊 Weekly development breakdown
 <!--START_SECTION:waka-->
+
+```text
+From: 21 February 2023 - To: 25 March 2023
+
+Total Time: 73 hrs 45 mins
+
+Python       20 hrs 16 mins  >>>>>>>------------------   27.50 %
+TypeScript   20 hrs 10 mins  >>>>>>>------------------   27.35 %
+Other        13 hrs 19 mins  >>>>>--------------------   18.06 %
+```
+
 <!--END_SECTION:waka-->
