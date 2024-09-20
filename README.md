@@ -5,4 +5,4 @@
 
 
 
-![](https://wakatime.com/share/@WeryZebra/c8e2fe1c-cb22-4c27-b578-1b1876e1169d.png)
+![](https://wakatime.com/share/@WeryZebra/b7a808af-7560-4109-9ea0-47eac84f4ce6.svg)
